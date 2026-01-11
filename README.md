@@ -1,7 +1,7 @@
 Saurabh – UI/UX & Web Developer Portfolio
 
 Welcome to my portfolio 👋  
-This repository contains my personal portfolio website showcasing my work in **UI/UX design** and **web development**, along with my resume and selected projects.
+This repository contains my personal portfolio website showcasing my work in UI/UX design and web development, along with my resume and selected projects.
 
 ---
 
@@ -11,7 +11,7 @@ This repository contains my personal portfolio website showcasing my work in **U
 ---
 
 👨‍💻 About Me
-Hi, I’m Saurabh Singh, a Computer Science Engineering student with a strong interest in **UI/UX design** and **front-end web development**.  
+Hi, I’m Saurabh Singh, a Computer Science Engineering student with a strong interest in UI/UX design and front-end web development.  
 I enjoy designing clean, intuitive interfaces and converting design concepts into responsive, user-friendly websites.
 
 I’m currently focused on gaining real-world experience through internships and freelance opportunities while continuously improving my design and development skills.
@@ -20,9 +20,9 @@ I’m currently focused on gaining real-world experience through internships and
 
 🛠️ Skills & Tools
 - **UI/UX Design:** Figma, Wireframing, Prototyping, Visual Design  
-- **Web Development:** HTML5, CSS3, JavaScript  
-- **Design Principles:** Layout, Typography, Color Theory, Accessibility  
-- **Version Control:** Git & GitHub  
+- Web Development: HTML5, CSS3, JavaScript  
+- Design Principles: Layout, Typography, Color Theory, Accessibility  
+- **Version Control: Git & GitHub  
 
 ---
 
@@ -47,7 +47,7 @@ I’m currently focused on gaining real-world experience through internships and
 📬 Contact
 - Email: saurabhsingh505152@gmail.com 
 - LinkedIn: https://linkedin.com/in/saurabh54e 
-- **GitHub: https://github.com/saurabh54e   
+- GitHub: https://github.com/saurabh54e   
 
 ---
 
@@ -59,7 +59,7 @@ I’m currently focused on gaining real-world experience through internships and
 ---
 🚀 Portfolio Template
 
-This repository is open for use as a **portfolio template**.
+This repository is open for use as a portfolio template.
 
 You are free to:
 - Fork and clone this repository
