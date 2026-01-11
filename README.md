@@ -6,7 +6,7 @@ This repository contains my personal portfolio website showcasing my work in **U
 ---
 
 🔗 Live Portfolio
-👉 https://saurabh54e.github.io/portfolio/
+👉 (https://saurabh54e.github.io/Portfolio/)
 
 ---
 
