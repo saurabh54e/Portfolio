@@ -57,6 +57,22 @@ I’m currently focused on gaining real-world experience through internships and
 - Build meaningful, user-focused digital products  
 
 ---
+🚀 Portfolio Template
+
+This repository is open for use as a **portfolio template**.
+
+You are free to:
+- Fork and clone this repository
+- Modify the design and code
+- Use it as a base for your own portfolio
+
+Please make sure to:
+- Replace all personal content with your own
+- Give credit if you use this template
+
+If you like this template, feel free to ⭐ the repo!
+
 
 Thank you for visiting my portfolio ⭐  
 Feel free to explore my work or reach out for collaboration.
+
