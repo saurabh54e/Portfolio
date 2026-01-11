@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="video-bg">
+      <video autoplay muted loop playsinline>
+        <source src="/assets/9665235-hd_1920_1080_25fps.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <nav class="navbar">
+      <div class="logo">
+        <div class="ss">
+          <span>Saurabh Singh</span>
+        </div>
+        <div class="logo_subtext">
+          <span>UI/UX & Product Designer</span>
+        </div>
+      </div>
+
+      <ul class="nav_links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="resume_button desktop-only">
+        <button class="Resume_button" onclick="window.open('/assets/SaurabhSingh_Resume.pdf', '_blank')">View Resume</button>
+      </div>
+
+      <div class="hamburger" id="openMenu">☰</div>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-header">
+        <span class="mobile-logo">SS</span>
+        <span class="close-menu" id="closeMenu">✕</span>
+      </div>
+
+      <ul class="mobile-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <section class="hero_section" id="home">
+      <span class="hi">Hi, I'm</span>
+
+      <h1 class="hero">
+        <span class="name">Saurabh</span>
+        <span class="title">Singh</span>
+      </h1>
+
+      <h2 class="hero_job">
+        <span class="im">I'm</span>
+        <span class="des">UI/UX Designer</span>
+      </h2>
+
+      <p class="intro">
+        Building purposeful <span>digital experiences</span> at the intersection
+        of design, data, and intelligent systems.
+      </p>
+
+      <div class="hero_ctc">
+        <button onclick="location.href='#contact'" class="hireme_button">
+          Hire me
+        </button>
+        <button onclick="location.href='#projects'" class="viewwork_button">
+          View Work
+        </button>
+      </div>
+
+      <div onclick="location.href='#about'" class="scroll-container">
+        <p class="scroll-text">SCROLL DOWN</p>
+        <div class="scroll-arrow">↓</div>
+      </div>
+
+      <div class="socials">
+        <div class="main_socials">
+          <a
+            href="https://www.linkedin.com/in/saurabh54e/"
+            class="fa-brands fa-linkedin-in"
+          ></a>
+        </div>
+        <div class="main_socials">
+          <a
+            href="https://github.com/saurabh54e"
+            class="fa-brands fa-github"
+          ></a>
+        </div>
+        <div class="main_socials">
+          <a
+            href="https://www.figma.com/@saurabh54e"
+            class="fa-brands fa-figma"
+          ></a>
+        </div>
+        <div class="main_socials">
+          <a
+            href="mailto:Saurabhsingh505152@gmail.com"
+            class="fa-solid fa-envelope"
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="header">
+        <span class="subtitle">Get to know me</span>
+        <h2 class="title">
+          <span>About</span><span class="gradient">Me</span>
+        </h2>
+        <div class="underline"></div>
+      </div>
+
+      <div class="about-main">
+        <div class="rotating-wrapper">
+          <div class="rotating-box"></div>
+
+          <!-- OUTER FRAME -->
+          <div class="outer-frame">
+            <!-- CODE WINDOW -->
+            <div class="code-card">
+              <!-- HEADER -->
+              <div class="code-card-header">
+                <div class="dots">
+                  <span class="dot_red"></span>
+                  <span class="dot_yellow"></span>
+                  <span class="dot_green"></span>
+                </div>
+
+                <div class="tab-bar"></div>
+              </div>
+
+              <!-- INNER EDITOR -->
+              <div class="editor-area">
+                <pre>
+<span class="gray">1 </span><span class="blue">const</span> <span class="white">Designer</span> <span class="blue">=</span> <span class="white">{</span>
+<span class="gray">2 </span> name:<span class="green"> "Saurabh"</span>
+<span class="gray">3 </span> skills:<span class="red"> ["Design","Develop"]</span>
+<span class="gray">4 </span> passion:<span class="cyan"> "∞"</span>
+<span class="gray">5 </span><span class="white">}</span>
+</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <span class="muted">I’m a </span>
+          <span class="blue bold">UI/UX</span>
+          <span class="muted">
+            –focused web designer and frontend developer dedicated to crafting
+            intuitive,
+          </span>
+          <span class="white bold">user-friendly digital experiences </span>
+          <span class="muted">that prioritize clarity, usability, and </span>
+          <span class="blue bold">visual consistency</span>
+          <span class="muted bold">.<br /><br /></span>
+
+          <span class="muted">I design and build </span>
+          <span class="teal bold">responsive interfaces</span>
+          <span class="muted"> using </span>
+          <span class="teal bold">HTML</span>
+          <span class="muted">, </span>
+          <span class="teal bold">CSS</span>
+          <span class="muted">, and </span>
+          <span class="teal bold">JavaScript</span>
+          <span class="muted"> , focusing on layout structure, </span>
+          <span class="blue bold">interaction design</span>
+          <span class="muted bold">,</span>
+          <span class="muted">
+            accessibility, and smooth UI behavior. My approach combines
+            thoughtful design decisions with clean, maintainable code to ensure
+            interfaces feel natural and performant across devices.
+            <br /><br />
+            Beyond core web design, I’m an
+          </span>
+
+          <span class="indigo bold">AI/ML</span>
+          <span class="muted"> and </span>
+          <span class="indigo bold">Robotics</span>
+          <span class="muted"> enthusiast, curious about how </span>
+          <span class="indigo bold">intelligent systems</span>
+          <span class="muted bold">,</span>
+          <span class="muted">
+            automation, and emerging technologies can enhance user experiences.
+            I enjoy exploring how these ideas can be thoughtfully integrated
+            into products to create smarter, future-ready interfaces.
+          </span>
+          <div class="stats">
+            <div class="stat-card">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="#2563EB">
+                <path
+                  d="M10.7483 0C4.81477 0 0 4.79627 0 10.7186C0 16.6409 4.81477 21.4372 10.7483 21.4372C11.5265 21.4372 12.2974 21.3604 12.9342 21.1182C13.5923 20.8679 14.2123 20.3921 14.414 19.5695C14.4818 19.2932 14.522 19.016 14.5007 18.7103C14.4797 18.4104 14.4031 18.1351 14.3032 17.8597C14.2062 17.592 14.0701 17.2799 13.9106 16.9142L13.8932 16.8744C13.733 16.507 13.5378 16.0599 13.3025 15.4879C12.9689 14.677 13.3576 14.0612 13.7212 13.88C13.7875 13.8469 13.9315 13.8008 14.1925 13.767C14.4443 13.7344 14.7519 13.7194 15.1142 13.7161C15.4752 13.7126 15.8669 13.7208 16.2884 13.7296L16.2961 13.7297C16.7101 13.7384 17.1502 13.7477 17.5884 13.7452C19.9277 13.7318 21.7126 11.7764 21.4024 9.42387C20.7252 4.28746 16.2676 0 10.7483 0ZM1.82444 10.7186C1.82444 5.80906 5.81716 1.82444 10.7483 1.82444C15.2987 1.82444 19.0289 5.37959 19.5936 9.66237C19.7552 10.8882 18.8578 11.9135 17.578 11.9208C17.1655 11.9231 16.747 11.9144 16.3266 11.9056L16.3206 11.9054C15.9073 11.8968 15.489 11.888 15.0971 11.8917C14.7046 11.8954 14.3144 11.9115 13.9582 11.9577C13.6112 12.0026 13.2368 12.0829 12.9072 12.2472C11.6479 12.8749 10.9348 14.5281 11.6153 16.1821C11.8581 16.7721 12.0597 17.2341 12.2202 17.602L12.2384 17.6437C12.4057 18.0273 12.515 18.2802 12.588 18.4815C12.6582 18.6751 12.6761 18.7726 12.6807 18.8373C12.6848 18.8962 12.6812 18.9753 12.6421 19.135C12.6299 19.1844 12.5959 19.2949 12.2856 19.413C11.9538 19.5391 11.4418 19.6127 10.7483 19.6127C5.81716 19.6127 1.82444 15.6281 1.82444 10.7186ZM9.77875 6.15749C9.77875 4.64607 11.004 3.42083 12.5154 3.42083C14.0268 3.42083 15.2521 4.64607 15.2521 6.15749C15.2521 7.6689 14.0268 8.89415 12.5154 8.89415C11.004 8.89415 9.77875 7.6689 9.77875 6.15749ZM3.84932 9.57831C3.84932 8.19283 4.97245 7.06971 6.35793 7.06971C7.74341 7.06971 8.86653 8.19283 8.86653 9.57831C8.86653 10.9638 7.74341 12.0869 6.35793 12.0869C4.97245 12.0869 3.84932 10.9638 3.84932 9.57831ZM6.12987 15.5077C6.12987 14.3742 7.0488 13.4552 8.18237 13.4552C9.31594 13.4552 10.2349 14.3742 10.2349 15.5077C10.2349 16.6413 9.31594 17.5602 8.18237 17.5602C7.0488 17.5602 6.12987 16.6413 6.12987 15.5077Z"
+                />
+              </svg>
+              <p class="stat-number">10+</p>
+              <p class="stat-label">UI Screens<br />Designed</p>
+            </div>
+
+            <div class="stat-card">
+              <svg width="18" height="18" viewBox="0 0 17 17" fill="none">
+                <path
+                  stroke="#2563EB"
+                  stroke-width="1.4"
+                  d="M0 16.42V0H5.47V10.95H16.42V16.42H0Z"
+                />
+              </svg>
+              <p class="stat-number">7+</p>
+              <p class="stat-label">Figma<br />Projects</p>
+            </div>
+
+            <div class="stat-card">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="#2563EB">
+                <path
+                  d="M16.9 6C19.6 6 21.9 8.2 21.9 11C21.9 13.6 19.6 15.8 16.9 15.8C15.6 15.8 14.4 15.3 13.5 14.4L11 12.2L8.4 14.5C7.5 15.3 6.2 15.8 4.9 15.8C2.2 15.8 0 13.6 0 10.9C0 8.2 2.2 6 4.9 6C6.2 6 7.5 6.5 8.4 7.5L11 9.7L13.5 7.4C14.4 6.5 15.7 6 16.9 6Z"
+                />
+              </svg>
+              <p class="stat-number">∞</p>
+              <p class="stat-label">Continuous<br />Learning</p>
+            </div>
+
+            <div class="stat-card">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="#2563EB">
+                <path
+                  d="M13.4 2L3.95 10.48C3.37 11.01 3.7 11.99 4.48 12.06L11.86 12.77L7.43 18.94C7.23 19.22 7.26 19.61 7.51 19.86C7.78 20.13 8.21 20.14 8.49 19.88L17.94 11.41C18.53 10.88 18.2 9.9 17.41 9.83L10.03 9.12L14.46 2.96C14.66 2.67 14.63 2.28 14.39 2.03Z"
+                />
+              </svg>
+              <p class="stat-number">30%</p>
+              <p class="stat-label">Workflow<br />Efficiency</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="header">
+        <span class="subtitle">What I excel at</span>
+        <h2 class="title">
+          <span>My</span><span class="gradient">Skills</span>
+        </h2>
+        <div class="underline"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="icon">🎨</div>
+          <h3>Design & UX</h3>
+          <div class="tags">
+            <span>UI Design</span>
+            <span>Visual Design</span>
+            <span>Responsive Layouts</span>
+            <span>UX Thinking</span>
+            <span>Wireframing</span>
+            <span>Prototyping</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="icon">🤖</div>
+          <h3>Robotics & Control Systems</h3>
+          <div class="tags">
+            <span>ROS2</span>
+            <span>Gazebo Simulation</span>
+            <span>Robot Navigation</span>
+            <span>Sensor Integration</span>
+            <span>PID Control</span>
+            <span>Control Systems</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="icon">💻</div>
+          <h3>Frontend Development</h3>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>DOM Scripting</span>
+            <span>Accessibility Awareness</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="icon">🧠</div>
+          <h3>AI / ML</h3>
+          <div class="tags">
+            <span>AI Concepts</span>
+            <span>Intelligent UX</span>
+            <span>Automation</span>
+            <span>AI-Assisted Workflows</span>
+            <span>Intelligent Interfaces</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="icon">🛠</div>
+          <h3>Tools</h3>
+          <div class="tags">
+            <span>Figma</span>
+            <span>VS Code</span>
+            <span>GitHub</span>
+            <span>ROS2</span>
+            <span>Canva</span>
+            <span>Gazebo</span>
+            <span>Sketch</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="header">
+        <span class="subtitle">My Journey</span>
+        <h2 class="title">
+          <span>Work</span><span class="gradient">Experience</span>
+        </h2>
+        <div class="underline"></div>
+      </div>
+      <div class="work-experience">
+        <!-- CARD 1 -->
+        <article class="experience-card">
+          <div class="experience-top">
+            <div class="icon">🎨</div>
+
+            <div class="meta">
+              <h3>UI & UX Designer</h3>
+              <p class="org">Freelance & Personal Projects</p>
+              <p class="time">2024–Present</p>
+            </div>
+          </div>
+
+          <div class="experience-content">
+            <div class="block">
+              <h4>Role Focus</h4>
+              <ul>
+                <li>Designing user-friendly website interfaces</li>
+                <li>Creating wireframes & interactive prototypes in Figma</li>
+                <li>
+                  Applying UX thinking, layout systems & visual consistency
+                </li>
+              </ul>
+            </div>
+
+            <div class="block">
+              <h4>Impact</h4>
+              <ul>
+                <li>Clearer navigation & smoother user journeys</li>
+                <li>Clean, minimal UI aligned with brand tone</li>
+              </ul>
+            </div>
+
+            <div class="block">
+              <h4>Core Skills</h4>
+
+              <div class="tags">
+                <span>Figma</span>
+                <span>UI Systems</span>
+                <span>Wire-framing</span>
+                <span>Prototyping</span>
+                <span>Visual Design</span>
+                <span>Responsive Layouts</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="experience-card">
+          <div class="experience-top">
+            <div class="icon">💻</div>
+
+            <div class="meta">
+              <h3>Frontend Developer</h3>
+              <p class="org">Freelance & Personal Projects</p>
+              <p class="time">2024–Present</p>
+            </div>
+          </div>
+
+          <div class="experience-content">
+            <div class="block">
+              <h4>Role Focus</h4>
+              <ul>
+                <li>
+                  Building responsive websites using HTML, CSS & JavaScript
+                </li>
+                <li>Converting UI designs into functional web pages</li>
+                <li>Writing clean, maintainable UI code</li>
+                <li>Improving layouts & interactions for better usability</li>
+              </ul>
+            </div>
+
+            <div class="block">
+              <h4>Impact</h4>
+              <ul>
+                <li>Faster & smoother website performance</li>
+                <li>Pixel-perfect UI aligned with design goals</li>
+              </ul>
+            </div>
+
+            <div class="block">
+              <h4>Core Skills</h4>
+
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>UI Components</span>
+                <span>Web Animation</span>
+                <span>Responsive Web Design</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="experience-card">
+          <div class="experience-top">
+            <div class="icon">🧠</div>
+
+            <div class="meta">
+              <h3>AI / ML Enthusiast</h3>
+              <p class="org">Self-Learning & Concept Exploration</p>
+              <p class="time">2024–Present</p>
+            </div>
+          </div>
+
+          <div class="experience-content">
+            <div class="block">
+              <h4>Role Focus</h4>
+              <ul>
+                <li>Exploring how AI can enhance digital experiences</li>
+                <li>Learning ML concepts & intelligent interfaces</li>
+                <li>Understanding automation & AI-assisted workflows</li>
+              </ul>
+            </div>
+
+            <div class="block">
+              <h4>Impact</h4>
+              <ul>
+                <li>Designing smarter, more adaptive user experiences</li>
+                <li>Strong conceptual understanding of AI-driven design</li>
+              </ul>
+            </div>
+
+            <div class="block">
+              <h4>Core Skills</h4>
+
+              <div class="tags">
+                <span>AI Concepts</span>
+                <span>Intelligent UX</span>
+                <span>Automation</span>
+                <span>AI-Assisted Workflows</span>
+                <span>Robot Navigation</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 4 -->
+        <article class="experience-card">
+          <div class="experience-top">
+            <div class="icon">🤖</div>
+
+            <div class="meta">
+              <h3>Robotics & Control Systems</h3>
+              <p class="org">Personal Projects & Learning Journey</p>
+              <p class="time">2024–Present</p>
+            </div>
+          </div>
+
+          <div class="experience-content">
+            <div class="block">
+              <h4>Role Focus</h4>
+              <ul>
+                <li>Learning and experimenting with robotics fundamentals</li>
+                <li>Working with ROS2 & Gazebo for simulation</li>
+                <li>Understanding PID-based motion control & navigation</li>
+                <li>Exploring sensor integration & system behavior</li>
+              </ul>
+            </div>
+
+            <div class="block">
+              <h4>Impact</h4>
+              <ul>
+                <li>Built a strong foundation in autonomous movement</li>
+                <li>Hands-on insight into control-driven systems</li>
+              </ul>
+            </div>
+
+            <div class="block">
+              <h4>Core Skills</h4>
+
+              <div class="tags">
+                <span>ROS2</span>
+                <span>PID Control</span>
+                <span>Control Systems</span>
+                <span>Gazebo Simulation</span>
+                <span>Robot Navigation</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="header">
+        <span class="subtitle">Featured work</span>
+        <h2 class="title">
+          <span>My</span><span class="gradient">Projects</span>
+        </h2>
+        <div class="underline"></div>
+      </div>
+
+      <div class="projects-grid">
+        <!-- PROJECT 1 -->
+        <article class="project-card">
+          <div class="project-image">
+            <img src="/assets/images/employee-dashboard-main-10.png" alt="" />
+            <div class="image-overlay"></div>
+
+            <div class="image-actions">
+              <a
+                href="https://www.figma.com/community/file/1591701817203026728"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fa-brands fa-figma"></i>
+              </a>
+              <a 
+                href="https://www.figma.com/proto/reAu3hW2VfCRQXzb2toAke/Megaminds_task1?node-id=3-139&t=mvPgQ0soO2zt2s5s-1"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <h3>Employee Management System</h3>
+          <p>
+            I developed an employee management system designed to manage
+            employee records and role-based information efficiently. The system
+            supports adding, updating, and viewing employee details through
+            structured workflows that reflect real-world organizational
+            processes. Through this project, I strengthened my understanding of
+            system design and application-level data handling.
+          </p>
+          <div class="tags">
+            <span>Figma</span>
+            <span>Data Handling</span>
+            <span>System Design</span>
+          </div>
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="project-card">
+          <div class="project-image">
+            <img src="/assets/images/drone.png" alt="" />
+            <div class="image-overlay"></div>
+
+            <div class="image-actions">
+              <a
+                href="https://www.linkedin.com/posts/saurabh54e_robotics-eyantra-dronesimulation-activity-7277654602106249216-ETOF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDSgyEBoF8VCYvOEItTRv6roJ1cLBWiZ0Q"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <!-- <a
+                href="https://your-live-link.com"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> -->
+              </a>
+            </div>
+          </div>
+          <h3>Drone Stabilization Using PID Control</h3>
+          <p>
+            Implemented PID coI implemented PID control logic to stabilize a
+            drone within a simulated environment. Using the ROS2 framework and
+            Gazebo simulator, I tested and visualized drone motion while tuning
+            PID parameters to minimize oscillations and enhance stability. This
+            project gave me practical experience in robotics, control systems,
+            and simulation-based testing.ntrol logic to stabilize a drone using
+            ROS2 and Gazebo.
+          </p>
+          <div class="tags">
+            <span>ROS2</span>
+            <span>Gazebo</span>
+            <span>PID Control</span>
+            <span>Robotics</span>
+          </div>
+        </article>
+
+        <!-- PROJECT 3 -->
+        <article class="project-card">
+          <div class="project-image">
+            <img src="/assets/images/portfolio.png" alt="" />
+            <div class="image-overlay"></div>
+
+            <div class="image-actions">
+              <a
+                href="https://www.figma.com/community/file/1582627592570714109/portfolio"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fa-brands fa-figma"></i>
+              </a>
+              <a
+                href="https://www.figma.com/proto/AEkbRxqIUEOoarQW93eI87/Portfolio?node-id=2-2&t=MsUHPfC7WzRLtv6s-1"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <h3>Personal Portfolio UI Design</h3>
+          <p>
+            I designed a complete personal portfolio interface in Figma,
+            including structured sections for skills, experience, projects, and
+            contact information. The focus was on clean visual hierarchy,
+            minimal layout, and consistent typography. This project helped me
+            deepen my understanding of UI layout structure and modern portfolio
+            design.
+          </p>
+          <div class="tags">
+            <span>Figma</span>
+            <span>Visual Design</span>
+            <span>UI Layout</span>
+            <span>Portfolio Design</span>
+          </div>
+        </article>
+
+        <!-- PROJECT 4 -->
+        <article class="project-card">
+          <div class="project-image">
+            <img src="/assets/images/rajratan.png" alt="" />
+            <div class="image-overlay"></div>
+
+            <div class="image-actions">
+              <a
+                href="https://www.figma.com/community/file/1591710610125375348"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fa-brands fa-figma"></i>
+              </a>
+              <a
+                href="https://www.figma.com/proto/NonXMai6QtKYMJMB7Rx6lX/Rajratan?node-id=3-2&t=Haya4kJ0gVslD0Ut-1"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <h3>Business Website UI Design</h3>
+          <p>
+            I designed a professional business website interface in Figma,
+            creating structured wireframes and layout flows. By applying
+            principles of visual hierarchy, spacing, and typography, I focused
+            on delivering a clean and user-friendly design. This project
+            enhanced my skills in modern web UI design.
+          </p>
+          <div class="tags">
+            <span>Figma</span>
+            <span>Wireframing</span>
+            <span>Typography</span>
+            <span>Web UI</span>
+          </div>
+        </article>
+
+        <!-- PROJECT 5 -->
+        <article class="project-card">
+          <div class="project-image">
+            <img src="/assets/images/ultraedit.png" alt="" />
+            <div class="image-overlay"></div>
+
+            <div class="image-actions">
+              <a
+                href="https://github.com/saurabh54e/ultraedit-download-page-clone"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://saurabh54e.github.io/ultraedit-download-page-clone/"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <h3>UltraEdit Website Clone</h3>
+          <p>
+            Recreated UltraI recreated the UltraEdit landing and download pages
+            using HTML and CSS. The project focused on replicating the original
+            layout accurately while implementing responsive behavior. Through
+            this build-from-scratch clone, I improved my front-end structuring
+            skills and strengthened my understanding of CSS layouts.Edit landing
+            and download pages using HTML and CSS.
+          </p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Web Clone</span>
+            <span>Responsive</span>
+          </div>
+        </article>
+
+        <!-- PROJECT 6 -->
+        <article class="project-card">
+          <div class="project-image">
+            <img src="/assets/images/netflix.png" alt="" />
+            <div class="image-overlay"></div>
+
+            <div class="image-actions">
+              <a
+                href="https://github.com/saurabh54e/netflix-ui-clone"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://saurabh54e.github.io/netflix-ui-clone/"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <h3>Netflix Landing Page Clone</h3>
+          <p>
+            Developed a Netflix-style landing pageI developed a Netflix-style
+            landing page using HTML and CSS, focusing on structured layout,
+            background overlays, and visual hierarchy. The page was designed to
+            be responsive and visually engaging. This project helped me practice
+            front-end styling and real-world UI replication. focusing on layout
+            and hierarchy.
+          </p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Landing Page</span>
+          </div>
+        </article>
+
+        <!-- PROJECT 7 -->
+        <article class="project-card">
+          <div class="project-image">
+            <img src="/assets/images/digitalagency.png" alt="" />
+            <div class="image-overlay"></div>
+
+            <div class="image-actions">
+              <a
+                href="https://www.figma.com/community/file/1582628359286160383"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fa-brands fa-figma"></i>
+              </a>
+              <a
+                href="https://www.figma.com/proto/Joptz2Y4xLX59v9iEAHi3W/Digital-Agency?node-id=54-5&t=nKsDyGdWmxFNtNGc-1"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <h3>Digital Agency Landing Page</h3>
+          <p>
+            I designed a digital agency landing page in Figma, starting from
+            wireframes and progressing into high-fidelity UI. I applied color
+            theory, spacing systems, and typography rules to create a clean and
+            user-focused design. This project strengthened my visual design
+            sense and layout composition skills.
+          </p>
+          <div class="tags">
+            <span>Figma</span>
+            <span>UI/UX</span>
+            <span>Wireframing</span>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <!-- TOP HEADER -->
+      <div class="header">
+        <span class="subtitle">GET IN TOUCH</span>
+        <h2 class="title">
+          <span>Let's</span><span class="gradient">Connect</span>
+        </h2>
+        <div class="underline"></div>
+      </div>
+      <div class="contact-intro">
+        <p class="contact-desc">
+          Have a project in mind or just want to chat? I’d love to hear from
+          you. Let’s create something amazing together.
+        </p>
+      </div>
+
+      <!-- MAIN GRID -->
+      <div class="contact-grid">
+        <!-- LEFT -->
+        <div class="contact-info">
+          <h3>Let’s Talk About Everything!</h3>
+          <p>
+            Don’t like forms? Send me an email directly or connect with me on
+            social media. I’m always open to discussing new projects or ideas.
+          </p>
+
+          <div class="info-list">
+            <div class="info-item">
+              <div class="main_social_links">
+                <a
+                  href="mailto:saurabhsingh505152@gmail.com"
+                  class="fa-solid fa-envelope"
+                ></a>
+              </div>
+              <div>
+                <span>Email</span>
+                <p>Saurabhsingh505152@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="main_social_links">
+                <a href="#" class="fa-solid fa-location-dot"></a>
+              </div>
+              <div>
+                <span>Location</span>
+                <p>Patna, Bihar, India</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="main_social_links">
+                <a
+                  href="https://www.linkedin.com/in/saurabh54e"
+                  class="fa-brands fa-linkedin-in"
+                ></a>
+              </div>
+              <div>
+                <span>LinkedIn</span>
+                <p>linkedin.com/saurabh54e</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="main_social_links">
+                <a
+                  href="https://github.com/saurabh54e"
+                  class="fa-brands fa-github"
+                ></a>
+              </div>
+              <div>
+                <span>GitHub</span>
+                <p>github.com/saurabh54e</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT -->
+        <form class="contact-form" id="contact-form">
+          <label>Your Name</label>
+          <input type="text" name="name" placeholder="Navpreet Singh" required/>
+
+          <label>Your Email</label>
+          <input type="email" name="email"  placeholder="NS@example.com" required/>
+
+          <label>Enter Your Message</label>
+          <textarea
+            rows="5"
+            name="message"
+            placeholder="Tell me about ur project..."
+            required
+          ></textarea>
+
+          <button type="submit" id="submitBtn">
+            <span class="btn-text">SEND</span>
+            <span class="loader"></span></button>
+          <p id="formStatus" style="display:none;"></p>
+        </form>
+        
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- LEFT -->
+        <div class="footer-logo">
+          <div class="name">Saurabh Singh</div>
+          <div class="role">UI/UX & Product Designer</div>
+        </div>
+
+        <!-- CENTER -->
+        <div class="socials">
+          <div class="main_socials">
+            <a href="https://www.linkedin.com/in/saurabh54e" class="fa-brands fa-linkedin-in"></a>
+          </div>
+          <div class="main_socials">
+            <a href="https://github.com/saurabh54e" class="fa-brands fa-github"></a>
+          </div>
+          <div class="main_socials">
+            <a href="mailto:saurabhsingh505152@gmail.com" class="fa-solid fa-envelope"></a>
+          </div>
+          <div class="main_socials">
+            <a href="https://www.figma.com/@saurabh54e" class="fa-brands fa-figma"></a>
+          </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="footer-copy">©2025 All reserved</div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
