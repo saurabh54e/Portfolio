@@ -1488,20 +1488,10 @@ button.loading .loader {
   font-weight: 600;
 }
 .footer-tagline {
-  display: block;
   margin-top: 8px;
   color: #9ca3af;
   font-size: 14px;
-}
-
-.main_socials a {
-  transition: all 0.3s ease;
-}
-
-.main_socials a:hover {
-  transform: translateY(-3px) scale(1.1);
-  color: #38bdf8; /* match your blue accent */
-}
+}  
 
 .footer-logo .role {
   margin-top: 4px;
@@ -1541,6 +1531,14 @@ button.loading .loader {
   color: #2563eb;
 }
 
+.main_socials a {
+  transition: all 0.3s ease;
+}
+
+.main_socials a:hover {
+  transform: translateY(-3px) scale(1.1);
+  color: #38bdf8; /* match your blue accent */
+}
 /* RIGHT */
 .footer-copy {
   font-size: 14px;
