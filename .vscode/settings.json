@@ -1,0 +1,6 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.hover.enabled": "off",
+    "editor.hover.sticky": false,
+    "editor.hover.above": false
+}
