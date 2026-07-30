@@ -137,3 +137,38 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 reveals.forEach(el => observer.observe(el));
+
+/* PROJECT FILTER */
+
+const filterButtons = document.querySelectorAll(".filter-btn");
+const projectCards = document.querySelectorAll(".project-card");
+
+function filterProjects(filter) {
+  projectCards.forEach((card) => {
+    const categories = (card.dataset.category || "").split(" ");
+    const featured = card.dataset.featured === "true";
+
+    const shouldShow =
+      filter === "featured"
+        ? featured
+        : categories.includes(filter);
+
+    card.classList.toggle("project-hidden", !shouldShow);
+  });
+}
+
+filterButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+
+    filterButtons.forEach((btn) => {
+      btn.classList.remove("active");
+    });
+
+    button.classList.add("active");
+
+    filterProjects(button.dataset.filter);
+  });
+});
+
+/* Default view */
+filterProjects("featured");
