@@ -144,6 +144,7 @@ button.Resume_button:hover {
   pointer-events: auto;
 } */
 
+
 /* DESKTOP DEFAULT */
 .hamburger {
   display: none;
@@ -151,11 +152,40 @@ button.Resume_button:hover {
   color: #fff;
   cursor: pointer;
 }
+.mobile-resume {
+  margin-top: 20px;
+}
+
+.mobile-resume a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  padding: 14px 20px;
+
+  border: 1px solid #2563eb;
+  border-radius: 10px;
+
+  background: rgba(37, 99, 235, 0.12);
+  color: #ffffff;
+
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+.mobile-resume a:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+}
 
 /* MOBILE */
 @media (max-width: 768px) {
   ul.nav_links,
-  .resume_button {
+  .Resume_button {
     display: none;
   }
 
@@ -250,6 +280,21 @@ button.Resume_button:hover {
     background-clip: text;
     text-decoration: none;
   }
+  .mobile-links .mobile-resume a {
+  font-size: 15px;
+  padding: 14px 28px;
+  color: #ffffff;
+  background: rgba(37, 99, 235, 0.12);
+  border: 1px solid #2563eb;
+  border-radius: 10px;
+  -webkit-text-fill-color: #ffffff;
+}
+
+.mobile-links .mobile-resume a:hover {
+  background: #2563eb;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
 }
 
 /* shared section  styles */
@@ -1337,9 +1382,7 @@ pre span.cyan {
   border-right: 1px solid rgba(120, 132, 136, 0.3);
 }
 
-/* =========================
-   FILTER BUTTONS
-   ========================= */
+/* FILTER BUTTONS*/
 
 .filter-btn {
   position: relative;
