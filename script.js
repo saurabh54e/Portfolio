@@ -1,9 +1,8 @@
-/* HERO ROLE ROTATION*/
+/* Hero Role Rotation */
 const titles = [
   "UI/UX Designer |",
-  "Web Developer |",
-  "AI/ML Enthusiast |",
-  "Robotics Explorer |"
+  "Product Designer |",
+  "Frontend Developer |"
 ];
 
 const role = document.querySelector(".des");
@@ -44,28 +43,109 @@ function setActiveLink() {
 window.addEventListener("scroll", setActiveLink);
 
 
-   /*MOBILE MENU TOGGLE*/
+   /* MOBILE MENU TOGGLE */
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const openMenu = document.getElementById("openMenu");
   const closeMenu = document.getElementById("closeMenu");
   const mobileMenu = document.getElementById("mobileMenu");
 
+  if (!openMenu || !closeMenu || !mobileMenu) return;
+
   openMenu.addEventListener("click", () => {
     mobileMenu.classList.add("active");
+    document.body.classList.add("menu-open");
     document.body.style.overflow = "hidden";
   });
 
   closeMenu.addEventListener("click", () => {
     mobileMenu.classList.remove("active");
+    document.body.classList.remove("menu-open");
     document.body.style.overflow = "";
   });
 
   document.querySelectorAll(".mobile-links a").forEach(link => {
     link.addEventListener("click", () => {
       mobileMenu.classList.remove("active");
+      document.body.classList.remove("menu-open");
       document.body.style.overflow = "";
     });
+  });
+});
+
+/* THEME TOGGLE */
+
+document.addEventListener("DOMContentLoaded", () => {
+  const themeToggle = document.getElementById("themeToggle");
+  const themeIcon = themeToggle?.querySelector(".theme-icon");
+  const backgroundVideo = document.getElementById("themeBackgroundVideo");
+
+  if (!themeToggle) return;
+
+  const themeVideos = {
+    light: "assets/videos/black_bone_orange_light.mp4",
+    dark: "assets/videos/black_bone_orange_dark.mp4"
+  };
+
+  const savedTheme = localStorage.getItem("theme") || "light";
+
+  document.documentElement.setAttribute("data-theme", savedTheme);
+
+  function updateThemeIcon() {
+    const currentTheme =
+      document.documentElement.getAttribute("data-theme");
+
+    if (themeIcon) {
+      themeIcon.textContent =
+        currentTheme === "dark" ? "☀" : "☾";
+    }
+
+    themeToggle.setAttribute(
+      "aria-label",
+      currentTheme === "dark"
+        ? "Switch to light mode"
+        : "Switch to dark mode"
+    );
+  }
+
+  function updateBackgroundVideo() {
+    if (!backgroundVideo) return;
+
+    const currentTheme =
+      document.documentElement.getAttribute("data-theme") === "dark"
+        ? "dark"
+        : "light";
+
+    const newSource = themeVideos[currentTheme];
+
+    if (!backgroundVideo.src.endsWith(newSource)) {
+      backgroundVideo.src = newSource;
+      backgroundVideo.load();
+
+      backgroundVideo.play().catch(() => {});
+    }
+  }
+
+  updateThemeIcon();
+  updateBackgroundVideo();
+
+  themeToggle.addEventListener("click", () => {
+    const currentTheme =
+      document.documentElement.getAttribute("data-theme");
+
+    const newTheme =
+      currentTheme === "dark" ? "light" : "dark";
+
+    document.documentElement.setAttribute(
+      "data-theme",
+      newTheme
+    );
+
+    localStorage.setItem("theme", newTheme);
+
+    updateThemeIcon();
+    updateBackgroundVideo();
   });
 });
 
@@ -172,3 +252,4 @@ filterButtons.forEach((button) => {
 
 /* Default view */
 filterProjects("featured");
+
