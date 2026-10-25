@@ -461,7 +461,7 @@ document.addEventListener("DOMContentLoaded", () => {
         label: "UI/UX • Dashboard",
         title: "Employee Leave Management System",
         intro:
-          "A dashboard that gives employees and administrators a clear view of leave records, filters, and leave requests, including pending ones.",
+          "A leave management system with separate dashboards and user flows for companies and employees.",
         role: "UI/UX Designer",
         tools: "Figma",
         type: "Dashboard",
@@ -469,9 +469,9 @@ document.addEventListener("DOMContentLoaded", () => {
           "Leave requests and records were hard to scan, and pending requests needed to be easy to find and review.",
         process: ["User Flow", "Wireframes", "Dashboard Design", "Prototype"],
         solution:
-          "A structured dashboard system was designed with clear navigation, organized information, and consistent UI patterns.",
+          "Two dashboards and their user flows, one for companies and one for employees. The company dashboard shows leave records, filters, all leave requests, and pending requests.",
         outcome:
-          "A dashboard with leave records, filters, and separate views for all leave requests and pending requests, designed with consistent UI patterns.",
+          "Two dashboards and their user flows, designed within a 48-hour deadline",
         hero: "assets/images/Project-02.png",
         gallery: [
           "assets/images/case-studies/employee-leave-management/employee-leave-management-01.png",
@@ -511,7 +511,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Prototyping",
         ],
         solution:
-          "The agent dashboard was redesigned with AI-handling labels, human-request notifications, chat takeover controls, separate Live and Closed sections, a dedicated customer details panel, and clearer conversation controls.",
+          "The agent dashboard was redesigned around AI-handled chats, human handoffs, and customer context, with separate Live and Closed sections, a customer details panel, and clearer conversation controls.",
         outcome:
           "Added the controls the existing dashboard was missing: AI-handling labels, a chat takeover button, an end chat control, and a clear human-support request pop-up. The changes were refined with feedback from a senior colleague at the company.",
         hero: "assets/images/Project-03.png",
@@ -549,7 +549,7 @@ document.addEventListener("DOMContentLoaded", () => {
         solution:
           "The interface was structured around a clear enrollment journey with simple navigation and organized course information.",
         outcome:
-          "An end-to-end enrollment journey, from browsing courses to completing registration, with a prototype to test the flow.",
+          "An end-to-end enrollment journey, from browsing courses to completing registration.",
         hero: "assets/images/Project-04.png",
         gallery: [
           "assets/images/case-studies/course-enrollment/course-enrollment-01.png",
@@ -590,7 +590,7 @@ document.addEventListener("DOMContentLoaded", () => {
         solution:
           "A responsive portfolio experience combining visual design, content structure, and interactive elements.",
         outcome:
-          "A responsive portfolio site that presents my design and development work in one interactive experience",
+          "A responsive portfolio site that presents design and development work in one interactive experience.",
         hero: "assets/images/Project-05.png",
         gallery: [
           "assets/images/case-studies/framer/framer-01.png",
