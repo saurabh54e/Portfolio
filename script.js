@@ -493,45 +493,47 @@ document.addEventListener("DOMContentLoaded", () => {
         ],
       },
 
-      rajratan: {
-        label: "UI/UX • Web Design",
-        title: "Rajratan Business Website",
-        intro:
-          "A professional business website designed in Figma using structured wireframes and carefully planned content sections.",
-        role: "UI/UX Designer",
-        tools: "Figma",
-        type: "Website",
-        problem:
-          "The website needed a clear visual hierarchy and structured presentation to communicate business information effectively.",
-        process: [
-          "Research",
-          "Information Architecture",
-          "Wireframes",
-          "UI Design",
-        ],
-        solution:
-          "The interface focuses on visual hierarchy, typography, spacing, and clear presentation.",
-        outcome: "A polished and user-friendly business website concept.",
-        hero: "assets/images/Project-03.png",
-        gallery: [
-          "assets/images/case-studies/rajratan-01.png",
-          "assets/images/case-studies/rajratan-02.png",
-          "assets/images/case-studies/rajratan-03.png",
-          "assets/images/case-studies/rajratan-04.png",
-        ],
-        actions: [
-          {
+"nova-chat": {
+  label: "UI/UX • Dashboard Redesign",
+  title: "NovaChat — Customer Support Dashboard",
+  intro:
+    "Redesigning an AI-powered customer support dashboard to help human agents manage conversations and seamlessly take over chats from AI.",
+  role: "UI/UX Designer",
+  tools: "Figma",
+  type: "Dashboard",
+  problem:
+    "The existing dashboard needed clearer indicators for AI-handled conversations, a smoother human handoff process, and easier access to customer information while agents managed chats.",
+  process: [
+    "Existing Dashboard Analysis",
+    "Information Architecture",
+    "User Workflow",
+    "UI Redesign",
+    "Prototyping",
+  ],
+  solution:
+    "Redesigned the agent dashboard with AI-handling labels, human-request notifications, chat takeover controls, separate Live and Closed chat sections, a dedicated customer details panel, and clearer conversation controls.",
+  outcome:
+    "A more structured customer-support dashboard concept that improves conversation visibility and makes the transition between AI and human assistance easier for agents to manage.",
+  hero: "assets/images/Project-03.png",
+  gallery: [
+    "assets/images/case-studies/nova-chat-01.png",
+    "assets/images/case-studies/nova-chat-02.png",
+    "assets/images/case-studies/nova-chat-03.png",
+    "assets/images/case-studies/nova-chat-04.png",
+  ],
+  actions: [
+    {
             label: "View Design",
-            url: "https://www.figma.com/community/file/1591710610125375348",
+            url: "https://www.figma.com/design/0ASH9UgluUBowVeu30mzS4/Nova-Chat?node-id=0-1&t=UUscA0YOhNvf8Ppi-1",
             icon: "fa-brands fa-figma",
           },
           {
             label: "View Prototype",
-            url: "https://www.figma.com/proto/NonXMai6QtKYMJMB7Rx6lX/Rajratan?node-id=3-2",
+            url: "https://www.figma.com/proto/0ASH9UgluUBowVeu30mzS4/Nova-Chat?node-id=70-673&p=f&viewport=-17256%2C248%2C0.61&t=1u2nQwhz8jMEryFS-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=70%3A248&page-id=0%3A1",
             icon: "fa-solid fa-arrow-up-right-from-square",
           },
-        ],
-      },
+  ],
+},
 
       "course-enrollment": {
         label: "UI/UX • App Design",
