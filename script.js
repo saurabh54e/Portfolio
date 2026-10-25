@@ -421,9 +421,9 @@ document.addEventListener("DOMContentLoaded", () => {
     caseStudyClose.setAttribute("aria-label", "Close case study");
 
     const caseStudies = {
-      amazon: {
-        label: "UI/UX • Product Design",
-        title: "AI-Powered Amazon Creative SaaS",
+      "ai-powered-amazon-creative-saas": {
+        label: "UI/UX • Product Design • Concept",
+        title: "AI Creative Generator for Amazon Sellers (Concept)",
         intro:
           "A SaaS UI/UX concept designed for an AI-powered platform that helps Amazon sellers generate product creatives through a clearer and more structured workflow.",
         role: "UI/UX Designer",
@@ -435,23 +435,23 @@ document.addEventListener("DOMContentLoaded", () => {
         solution:
           "The interface was structured around clear navigation, organized content, and a scalable product experience that keeps the creative generation workflow easy to follow.",
         outcome:
-          "A complete SaaS interface concept focused on simplifying complex AI workflows while maintaining a clean and professional product experience.",
+          "A complete end-to-end SaaS interface, from research and user flows to a high-fidelity UI, for an AI creative generation workflow.",
         hero: "assets/images/Project-01.png",
         gallery: [
-          "assets/images/case-studies/amazon/amazon-01.png",
-          "assets/images/case-studies/amazon/amazon-02.png",
-          "assets/images/case-studies/amazon/amazon-03.png",
-          "assets/images/case-studies/amazon/amazon-04.png",
+          "assets/images/case-studies/ai-powered-amazon-creative-saas/ai-powered-amazon-creative-saas-01.png",
+          "assets/images/case-studies/ai-powered-amazon-creative-saas/ai-powered-amazon-creative-saas-02.png",
+          "assets/images/case-studies/ai-powered-amazon-creative-saas/ai-powered-amazon-creative-saas-03.png",
+          "assets/images/case-studies/ai-powered-amazon-creative-saas/ai-powered-amazon-creative-saas-04.png",
         ],
         actions: [
           {
             label: "View Design",
-            url: "https://www.figma.com/design/xTW4QseeJBXcI4cAgo9PAo/Untitled?node-id=2-2&t=yiEk9UtQv9cSlZNK-1",
+            url: "https://www.figma.com/design/xTW4QseeJBXcI4cAgo9PAo/AI-Powered-Amazon-Creative-SaaS?node-id=0-1&t=0OvjAGCSfxL7PwVv-1",
             icon: "fa-brands fa-figma",
           },
           {
             label: "View Prototype",
-            url: "https://www.figma.com/proto/xTW4QseeJBXcI4cAgo9PAo/Untitled?node-id=2-2",
+            url: "https://www.figma.com/proto/xTW4QseeJBXcI4cAgo9PAo/AI-Powered-Amazon-Creative-SaaS?node-id=2-2&p=f",
             icon: "fa-solid fa-arrow-up-right-from-square",
           },
         ],
@@ -461,17 +461,17 @@ document.addEventListener("DOMContentLoaded", () => {
         label: "UI/UX • Dashboard",
         title: "Employee Leave Management System",
         intro:
-          "A dashboard experience designed to simplify employee leave requests, employee records, and administrative management.",
+          "A dashboard that gives employees and administrators a clear view of leave records, filters, and leave requests, including pending ones.",
         role: "UI/UX Designer",
         tools: "Figma",
         type: "Dashboard",
         problem:
-          "The interface needed to make employee leave management easier to understand while keeping important administrative information accessible.",
+          "Leave requests and records were hard to scan, and pending requests needed to be easy to find and review.",
         process: ["User Flow", "Wireframes", "Dashboard Design", "Prototype"],
         solution:
           "A structured dashboard system was designed with clear navigation, organized information, and consistent UI patterns.",
         outcome:
-          "A professional dashboard experience that makes workplace information easier to navigate and manage.",
+          "A dashboard with leave records, filters, and separate views for all leave requests and pending requests, designed with consistent UI patterns.",
         hero: "assets/images/Project-02.png",
         gallery: [
           "assets/images/case-studies/employee-leave-management/employee-leave-management-01.png",
@@ -482,7 +482,7 @@ document.addEventListener("DOMContentLoaded", () => {
         actions: [
           {
             label: "View Design",
-            url: "https://www.figma.com/community/file/1591701817203026728/company-dashboard-ui-production",
+            url: "https://www.figma.com/design/reAu3hW2VfCRQXzb2toAke/Company-Dashboard-%E2%80%93-UI-Production?node-id=0-1&t=LsHvDs2zHEdFfjoi-1",
             icon: "fa-brands fa-figma",
           },
           {
@@ -493,47 +493,47 @@ document.addEventListener("DOMContentLoaded", () => {
         ],
       },
 
-"nova-chat": {
-  label: "UI/UX • Dashboard Redesign",
-  title: "NovaChat — Customer Support Dashboard",
-  intro:
-    "Redesigning an AI-powered customer support dashboard to help human agents manage conversations and seamlessly take over chats from AI.",
-  role: "UI/UX Designer",
-  tools: "Figma",
-  type: "Dashboard",
-  problem:
-    "The existing dashboard needed clearer indicators for AI-handled conversations, a smoother human handoff process, and easier access to customer information while agents managed chats.",
-  process: [
-    "Existing Dashboard Analysis",
-    "Information Architecture",
-    "User Workflow",
-    "UI Redesign",
-    "Prototyping",
-  ],
-  solution:
-    "Redesigned the agent dashboard with AI-handling labels, human-request notifications, chat takeover controls, separate Live and Closed chat sections, a dedicated customer details panel, and clearer conversation controls.",
-  outcome:
-    "A more structured customer-support dashboard concept that improves conversation visibility and makes the transition between AI and human assistance easier for agents to manage.",
-  hero: "assets/images/Project-03.png",
-  gallery: [
-    "assets/images/case-studies/nova-chat-01.png",
-    "assets/images/case-studies/nova-chat-02.png",
-    "assets/images/case-studies/nova-chat-03.png",
-    "assets/images/case-studies/nova-chat-04.png",
-  ],
-  actions: [
-    {
+      "nova-chat": {
+        label: "UI/UX • Dashboard Redesign",
+        title: "NovaChat — Customer Support Dashboard",
+        intro:
+          "An AI-powered customer support dashboard to help human agents manage conversations and seamlessly take over chats from AI.",
+        role: "UI/UX Designer",
+        tools: "Figma",
+        type: "Dashboard",
+        problem:
+          "The existing dashboard had no AI-handling label, no chat takeover button, no end chat control, and no clear way to show when a human support request came in.",
+        process: [
+          "Existing Dashboard Analysis",
+          "Information Architecture",
+          "User Workflow",
+          "UI Redesign",
+          "Prototyping",
+        ],
+        solution:
+          "The agent dashboard was redesigned with AI-handling labels, human-request notifications, chat takeover controls, separate Live and Closed sections, a dedicated customer details panel, and clearer conversation controls.",
+        outcome:
+          "Added the controls the existing dashboard was missing: AI-handling labels, a chat takeover button, an end chat control, and a clear human-support request pop-up. The changes were refined with feedback from a senior colleague at the company.",
+        hero: "assets/images/Project-03.png",
+        gallery: [
+          "assets/images/case-studies/nova-chat/nova-chat-01.png",
+          "assets/images/case-studies/nova-chat/nova-chat-02.png",
+          "assets/images/case-studies/nova-chat/nova-chat-03.png",
+          "assets/images/case-studies/nova-chat/nova-chat-04.png",
+        ],
+        actions: [
+          {
             label: "View Design",
             url: "https://www.figma.com/design/0ASH9UgluUBowVeu30mzS4/Nova-Chat?node-id=0-1&t=UUscA0YOhNvf8Ppi-1",
             icon: "fa-brands fa-figma",
           },
           {
             label: "View Prototype",
-            url: "https://www.figma.com/proto/0ASH9UgluUBowVeu30mzS4/Nova-Chat?node-id=70-673&p=f&viewport=-17256%2C248%2C0.61&t=1u2nQwhz8jMEryFS-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=70%3A248&page-id=0%3A1",
+            url: "https://www.figma.com/proto/0ASH9UgluUBowVeu30mzS4/Nova-Chat?node-id=70-248&p=f",
             icon: "fa-solid fa-arrow-up-right-from-square",
           },
-  ],
-},
+        ],
+      },
 
       "course-enrollment": {
         label: "UI/UX • App Design",
@@ -549,7 +549,7 @@ document.addEventListener("DOMContentLoaded", () => {
         solution:
           "The interface was structured around a clear enrollment journey with simple navigation and organized course information.",
         outcome:
-          "A clean course enrollment experience focused on usability and clarity.",
+          "An end-to-end enrollment journey, from browsing courses to completing registration, with a prototype to test the flow.",
         hero: "assets/images/Project-04.png",
         gallery: [
           "assets/images/case-studies/course-enrollment/course-enrollment-01.png",
@@ -560,12 +560,12 @@ document.addEventListener("DOMContentLoaded", () => {
         actions: [
           {
             label: "View Design",
-            url: "https://www.figma.com/design/D5u3nWbx81Cx56dM3jS27x/Course--Enrollment-System?node-id=2-2",
+            url: "https://www.figma.com/design/D5u3nWbx81Cx56dM3jS27x/Course-Enrollment-System?node-id=0-1&t=GexuXlXlELj0ylA5-1",
             icon: "fa-brands fa-figma",
           },
           {
             label: "View Prototype",
-            url: "https://www.figma.com/proto/D5u3nWbx81Cx56dM3jS27x/Course--Enrollment-System?node-id=2-2",
+            url: "https://www.figma.com/proto/D5u3nWbx81Cx56dM3jS27x/Course-Enrollment-System?node-id=2-2&p=f",
             icon: "fa-solid fa-arrow-up-right-from-square",
           },
         ],
@@ -589,7 +589,8 @@ document.addEventListener("DOMContentLoaded", () => {
         ],
         solution:
           "A responsive portfolio experience combining visual design, content structure, and interactive elements.",
-        outcome: "A polished Framer portfolio experience.",
+        outcome:
+          "A responsive portfolio site that presents my design and development work in one interactive experience",
         hero: "assets/images/Project-05.png",
         gallery: [
           "assets/images/case-studies/framer/framer-01.png",
